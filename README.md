@@ -1,4 +1,9 @@
 # T-Rex-Tutorial
+The term Regex stands for Regular expression. The regex or regexp or regular expression is a sequence of different characters which describe the particular search pattern. It is also referred/called as a Rational expression.
+It is mainly used for searching and manipulating text strings. In simple words, you can easily search the pattern and replace them with the matching pattern with the help of regular expression.
+
+This concept or tool is used in almost all the programming or scripting languages such as PHP, C, C++, Java, Perl, JavaScript, Python, Ruby, and many others. It is also used in word processors such as word which helps users for searching the text in a document, and also used in various IDEs.
+The pattern defined by the regular expression is applied to the given string or a text from left to right.
 
 ## Summary
 In summary, regular expressions (regex) are a powerful tool used for pattern matching and string manipulation. They consist of a combination of literal characters, metacharacters, quantifiers, and special characters that define a pattern to be matched against a string.
@@ -257,5 +262,4 @@ print("Negative lookbehind matches:", re.findall(negative_lookbehind_pattern, te
 In this example, the positive lookahead pattern matches the first "foo" in "foobar", but not the second "foo" in "foobaz", because it is not followed by "bar". The negative lookahead pattern matches the second "foo" in "foobaz", but not the first "foo" in "foobar", because it is followed by "bar". The positive lookbehind pattern matches the "bar" in "foobar" and "barfoo", but not the "bar" in "fooqux", because it is not preceded by "foo". The negative lookbehind pattern matches the "bar" in "fooqux", but not the "bar" in "foobar" or "barfoo", because they are preceded by "foo".
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hello, my name is Elmer Herrera and this is tutorial for Regex. I hope this can help anyone looking for imformation on the subject. https://github.com/elmerherrera
